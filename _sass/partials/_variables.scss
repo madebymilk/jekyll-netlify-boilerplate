@@ -22,3 +22,9 @@ $screen-sm-min: 768px;
 $screen-md-min: 992px;
 $screen-lg-min: 1240px;
 $screen-xl-min: 1920px;
+
+// base url
+$base-url: "{{ site.baseurl }}";
+
+// background background-image
+$bg-image-url: "../assets/img/black-white.jpg"

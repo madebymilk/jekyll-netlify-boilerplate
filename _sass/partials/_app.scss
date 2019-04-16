@@ -26,6 +26,11 @@ body > * {
 // it is also a grid for the logo and nav
 header {
   grid-column: full;
+  height: 100vh;
+  background-image: url($bg-image-url);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   display: grid;
   background-color: $brand-color;
   padding: 2rem;

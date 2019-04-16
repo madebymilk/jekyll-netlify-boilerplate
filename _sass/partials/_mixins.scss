@@ -17,3 +17,14 @@
   -ms-user-select: $argument;
   user-select: $argument;
 }
+
+// From https://codepen.io/auginator/pen/HbshE
+@mixin cover-background() {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
